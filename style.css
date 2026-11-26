@@ -633,3 +633,131 @@ header div{
     justify-content: center;
     gap: 20px;
 }
+.footer_wrap {
+    background-color: #FEF9F2;
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 40px;
+}
+footer {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 20px;
+}
+.top_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 40px;
+    margin-bottom: 70px;
+}
+.col1_footer {
+    width: 28%;
+}
+.col1_footer p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6E6E6E;
+    margin-top: 20px;
+}
+.col2_footer, .col3_footer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 16%;
+}
+.col2_footer h3, .col3_footer h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    color: #090909;
+    margin-bottom: 5px;
+}
+.col2_footer p, .col3_footer p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #6E6E6E;
+    cursor: pointer;
+}
+.col2_footer p:hover, .col3_footer p:hover {
+    color: #FF9C08;
+}
+.box_footer {
+    width: 32%;
+    background-color: #FF9C08;
+    border-radius: 15px;
+    padding: 45px 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.box_footer h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 32px;
+    color: #090909;
+    margin-bottom: 10px;
+}
+.btn_footer_black {
+    width: 100%;
+    padding: 20px 25px;
+    background-color: #090909;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn_footer_black:hover {
+    background-color: lightgray;
+    color: black;
+}
+.btn_footer_white {
+    width: 100%;
+    padding: 20px 25px;
+    background-color: white;
+    color: #090909;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn_footer_white:hover {
+    background-color: lightgray;
+}
+.xat_footer {
+    width: 100%;
+    height: 1px;
+    background-color: lightgray;
+    margin-bottom: 35px;
+}
+.bottom_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom_footer p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    color: #6E6E6E;
+}
+.bottom_footer a {
+    color: #090909;
+}
+.bottom_footer a:hover {
+    color: #FF9C08;
+}
+.socials_footer {
+    display: flex;
+    gap: 12px;
+}
+.soc_item {
+    width: 34px;
+    height: 34px;
+    background-color: #090909;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.soc_item:hover {
+    background-color: #FF9C08;
+}
