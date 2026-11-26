@@ -5,9 +5,10 @@
 header{
     font-family: "DM Sans", sans-serif;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    gap: 500px;
+   max-width: 1280px;
+    margin: auto;
     padding-top: 20px;
 
 }
@@ -26,4 +27,56 @@ header div{
 }
 .btn_header:hover{
     background-color: lightgray;
+}
+.left_section1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 40px;
+    width: 40%;
+}
+.section1{
+    display: flex;
+    max-width: 1280px;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+}
+.title{
+    line-height: 55px;
+    font-size: 50px;
+     font-family: "Roboto", sans-serif;
+}
+.desc{
+    color: gray;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+}
+.xat{
+    width: 140px;
+    background-color: #FF9C08;
+    height: 4px;
+    border-radius: 99999px;
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+}
+.btn1, .btn2{
+    padding: 20px 25px;
+    color: black;
+    background-color: #FF9C08;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn1:hover, .btn2:hover{
+    background-color: lightgray;
+}
+.btn2{
+    background-color: white;
+    color: black;
+    border: 1.3px solid lightgray;
 }
