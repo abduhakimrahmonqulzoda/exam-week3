@@ -444,3 +444,103 @@ header div{
     line-height: 26px;
     color: #6E6E6E;
 }
+
+.section7_wrap {
+    background-color: #FEF9F2;
+    width: 100%;
+    padding: 100px 0 140px 0;
+}
+.section7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 20px;
+    gap: 80px;
+}
+.left_section7 {
+    position: relative;
+    width: 48%;
+}
+.img_section7 {
+    width: 85%;
+    border-radius: 15px;
+}
+.card_section7 {
+    position: absolute;
+    bottom: -45px;
+    right: 0;
+    width: 65%;
+    background-color: white;
+    border-radius: 15px;
+    padding: 40px 35px;
+    border: 1px solid #F0F0F0;
+}
+.quote_section7 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6E6E6E;
+    margin-bottom: 20px;
+}
+.name_section7 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #090909;
+    margin-bottom: 5px;
+}
+.role_section7 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    color: #6E6E6E;
+}
+.right_section7 {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 46%;
+}
+.sub_section7 {
+    color: #FF9C08;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.title_section7 {
+    font-family: "Roboto", sans-serif;
+    font-size: 42px;
+    line-height: 50px;
+    color: #090909;
+    margin-bottom: 20px;
+}
+.desc_section7 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #6E6E6E;
+    margin-bottom: 25px;
+}
+.list_section7 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 40px;
+}
+.item_section7 {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.item_section7 i {
+    color: #FF9C08;
+    font-size: 22px;
+}
+.item_section7 p {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #090909;
+}
