@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 500px;
+    padding-top: 20px;
+
+}
+header div{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.btn_header{
+    padding: 15px 20px;
+    background-color: #FF9C08;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.btn_header:hover{
+    background-color: lightgray;
+}
